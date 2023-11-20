@@ -46,3 +46,23 @@ console.log(foundIndex);
 // there is also array.join() that works with strings and adds a space in the concatenation. check MDN for more info
 
 //
+array.forEach((element) => {});
+for (let i = 0; index < array.length; index++) {
+  const element = array[index];
+}
+
+const century = (year) => {
+  year >= 1 && year <= 99
+    ? 1
+    : year > 99 && year % 10 > 0
+    ? Math.floor((year % 1000) / 100)
+    : undefined;
+};
+console.log(century(1705));
+for (let index = 0; index < array.length; index++) {
+  const element = array[index];
+  
+}
+for (const iterator of object) {
+  
+}
